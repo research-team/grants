@@ -2,7 +2,21 @@
 
 ##Background
 
-Human and more than that machine consciousness is called the 'Hard problem' for obvious reasons. The efforts that are concentrated in this direction are enormous at the moment: Daniel Dennet, David Chalmers, Marvin Minsky, Aaron Sloman, Antonio Damasio that are most significant thinkers that work currently in this field. More than that projects like Blue Brain Project and Human Brain Project declare their goal to impact the understanding the human consciousness phenomena. The concentration of funding and computational power is the indication of the highest interest of modern computer society to the topic of consciousness and machine consciousness in particular. The complexity of the problem increases because this field involves several cross-disciplinary research fields from Cognitive Science (cognitive hexagon): Neuroscience, Psychology, Philosophy, Anthropology and Sociology. This puts us in the context of cross disciplinary research of: neuro-psychology, neuro-philosophy and all of them mapped to computational systems scientists and engineers.
+Building artificial consciousness, both machine, and human is an old dream.  For machine consciousness
+AI research has been looking for solutions for several decades and even today some of the best minds in
+the field, such as Marvin Minsky and leader of the Blue Brain Projects, are devoting considerable resources
+to solving that problem. Why is it then that we are so far from a solution? The obstacles are many, and this
+particular project focuses on one of the most formative direction: neurobiologically inspired systems and approaches.
+ 
+One of the major obstacles in his endeavor is the lack of understanding of human brain functioning.
+ 
+We propose a step towards the solution as follows:
+ 
+1. To establish the environment with close collaboration between several cross-disciplinary research fields from Cognitive Science (cognitive hexagon): Neuroscience, Psychology, Philosophy, Anthropology and Sociology and cross disciplinary research of: neuro-psychology, neuro-philosophy and neuro-psychology-ai, neuro-philosophy-ai that involves computer scientists and engineers.
+
+2. To develop quadrifocal approach to build novel models that will take in account: neuro-psychological-philosophical-AI aspects of the problems and natural objects of the research
+
+3. To develop state of the art implementations of the models with possible outburst to industrial domains and applications.
 
 ##Objectives
 

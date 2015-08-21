@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><project name="Artificial consciousness project" company="IU" webLink="https://github.com/max-talanov/1/blob/master/iProject/neucogar.md" view-date="2015-06-01" view-index="0" gantt-divider-location="552" resource-divider-location="300" version="2.0" locale="en_GB">
     <description/>
     <view zooming-state="default:11" id="gantt-chart">
-        <field id="tpd3" name="Name" width="66" order="0"/>
+        <field id="tpd3" name="Name" width="65" order="0"/>
         <field id="tpd4" name="Begin date" width="14" order="1"/>
-        <field id="tpd5" name="End date" width="13" order="2"/>
+        <field id="tpd5" name="End date" width="14" order="2"/>
         <field id="tpd6" name="Duration" width="5" order="3"/>
     </view>
     <view id="resource-table">
         <field id="0" name="Name" width="50" order="0"/>
-        <field id="1" name="Default role" width="49" order="1"/>
+        <field id="1" name="Default role" width="50" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -39,10 +39,9 @@
         <task id="3" name="Team forming" color="#8cb6ce" meeting="false" start="2015-06-01" duration="20" complete="0" expand="true">
             <depend id="0" type="2" difference="0" hardness="Strong"/>
             <depend id="1" type="2" difference="0" hardness="Strong"/>
-            <depend id="2" type="2" difference="0" hardness="Strong"/>
             <depend id="4" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="1" name="Theoretical model of consciousness" meeting="false" start="2015-06-29" duration="500" complete="0" expand="true">
+        <task id="1" name="Model of emotional appraisal" meeting="false" start="2015-06-29" duration="500" complete="0" expand="true">
             <task id="5" name="Scientific sources review" color="#8cb6ce" meeting="false" start="2015-06-29" duration="60" complete="0" expand="true">
                 <depend id="12" type="2" difference="0" hardness="Strong"/>
             </task>
@@ -85,7 +84,7 @@
             </task>
             <task id="86" name="Analysis of results" meeting="false" start="2017-05-15" duration="10" complete="0" expand="true"/>
         </task>
-        <task id="0" name="NEUCOGAR" meeting="false" start="2015-06-29" duration="350" complete="0" expand="true">
+        <task id="0" name="Emotional simulation" meeting="false" start="2015-06-29" duration="350" complete="0" expand="true">
             <task id="30" name="Neuromodulation Architecture specification" meeting="false" start="2015-06-29" duration="1" complete="0" expand="true"/>
             <task id="47" name="Dopamine" meeting="false" start="2015-06-29" duration="110" complete="0" expand="true">
                 <depend id="51" type="2" difference="0" hardness="Strong"/>
@@ -127,15 +126,6 @@
         </task>
         <task id="95" name="Learned reactions" color="#8cb6ce" meeting="false" start="2017-01-23" duration="94" complete="0" expand="true"/>
         <task id="96" name="Deliberative thinking" color="#8cb6ce" meeting="false" start="2017-01-23" duration="94" complete="0" expand="true"/>
-        <task id="2" name="Cortical column topology" meeting="false" start="2015-06-29" duration="180" complete="0" expand="true">
-            <task id="67" name="Filetering" meeting="false" start="2015-06-29" duration="30" complete="0" expand="true">
-                <depend id="70" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="70" name="Clastering" meeting="false" start="2015-08-10" duration="60" complete="0" expand="true">
-                <depend id="72" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="72" name="Spikes casuality" meeting="false" start="2015-11-02" duration="90" complete="0" expand="true"/>
-        </task>
         <task id="4" name="Publications" color="#8cb6ce" meeting="false" start="2016-01-11" duration="364" complete="0" expand="true"/>
     </tasks>
     <resources/>
@@ -150,10 +140,10 @@
         <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="354" visible="true"/>
-        <displaycolumn property-id="tpd4" order="1" width="77" visible="true"/>
-        <displaycolumn property-id="tpd5" order="2" width="74" visible="true"/>
-        <displaycolumn property-id="tpd6" order="3" width="28" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="358" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="81" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="77" visible="true"/>
+        <displaycolumn property-id="tpd6" order="3" width="32" visible="true"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>

@@ -36,7 +36,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="3" name="Team forming" color="#8cb6ce" meeting="false" start="2016-01-01" duration="20" complete="0" expand="true">
+        <task id="3" name="Team building" color="#8cb6ce" meeting="false" start="2016-01-01" duration="20" complete="0" expand="true">
             <depend id="0" type="2" difference="0" hardness="Strong"/>
             <depend id="1" type="2" difference="0" hardness="Strong"/>
             <depend id="4" type="2" difference="0" hardness="Strong"/>
@@ -63,7 +63,9 @@
             </task>
             <task id="17" name="Model update" color="#8cb6ce" meeting="false" start="2016-12-30" duration="30" complete="0" expand="true">
                 <depend id="18" type="2" difference="0" hardness="Strong"/>
+                <depend id="133" type="2" difference="0" hardness="Strong"/>
             </task>
+            <task id="133" name="Initial appraisal" color="#8cb6ce" meeting="true" start="2017-02-10" duration="0" complete="0" expand="true"/>
             <task id="18" name="Prototype version 2" meeting="false" start="2017-02-10" duration="60" complete="0" expand="true">
                 <depend id="19" type="2" difference="0" hardness="Strong"/>
             </task>
@@ -75,20 +77,25 @@
             </task>
             <task id="80" name="Model update" meeting="false" start="2017-07-14" duration="30" complete="0" expand="true">
                 <depend id="82" type="2" difference="0" hardness="Strong"/>
+                <depend id="137" type="2" difference="0" hardness="Strong"/>
             </task>
+            <task id="137" name="Updated appraisal" color="#8cb6ce" meeting="true" start="2017-08-25" duration="0" complete="0" expand="true"/>
             <task id="82" name="Prototype version 3" meeting="false" start="2017-08-25" duration="60" complete="0" expand="true">
                 <depend id="84" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="84" name="Testing and experiments" meeting="false" start="2017-11-17" duration="20" complete="0" expand="true">
                 <depend id="86" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="86" name="Analysis of results" meeting="false" start="2017-12-15" duration="10" complete="0" expand="true"/>
-            <task id="132" name="Appraisal development" meeting="false" start="2016-01-29" duration="1" complete="0" expand="true"/>
+            <task id="86" name="Analysis of results" meeting="false" start="2017-12-15" duration="10" complete="0" expand="true">
+                <depend id="141" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="141" name="Final appraisal" color="#8cb6ce" meeting="true" start="2017-12-29" duration="0" complete="0" expand="true"/>
         </task>
         <task id="0" name="Emotional simulation" meeting="false" start="2016-01-29" duration="350" complete="0" expand="true">
             <task id="30" name="Neuromodulation Architecture specification" meeting="false" start="2016-01-29" duration="1" complete="0" expand="true"/>
             <task id="47" name="Dopamine" meeting="false" start="2016-01-29" duration="110" complete="0" expand="true">
                 <depend id="51" type="2" difference="0" hardness="Strong"/>
+                <depend id="142" type="2" difference="0" hardness="Strong"/>
                 <task id="43" name="Basal ganglia simple model implementation" meeting="false" start="2016-01-29" duration="20" complete="0" expand="true">
                     <depend id="45" type="2" difference="0" hardness="Strong"/>
                 </task>
@@ -97,18 +104,22 @@
                 </task>
                 <task id="49" name="Basal ganglia with feedback loops and realistic number of neurons" meeting="false" start="2016-04-08" duration="60" complete="0" expand="true"/>
             </task>
-            <task id="51" name="Serotonin" meeting="false" start="2016-07-01" duration="110" complete="0" expand="true">
+            <task id="142" name="Dopamine prototype" color="#8cb6ce" meeting="true" start="2016-07-01" duration="0" complete="0" expand="true"/>
+            <task id="51" name="Serotonin (5HT)" meeting="false" start="2016-07-01" duration="110" complete="0" expand="true">
                 <depend id="57" type="2" difference="0" hardness="Strong"/>
-                <task id="53" name="Serotonin neuron/synapse" meeting="false" start="2016-07-01" duration="30" complete="0" expand="true">
+                <depend id="146" type="2" difference="0" hardness="Strong"/>
+                <task id="53" name="5HT neuron/synapse" meeting="false" start="2016-07-01" duration="30" complete="0" expand="true">
                     <depend id="55" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="55" name="Serotonin pathway reduced number of neurons" meeting="false" start="2016-08-12" duration="20" complete="0" expand="true">
+                <task id="55" name="5HT pathway reduced number of neurons" meeting="false" start="2016-08-12" duration="20" complete="0" expand="true">
                     <depend id="79" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="79" name="Serotonin pathway relistic scale" meeting="false" start="2016-09-09" duration="60" complete="0" expand="true"/>
+                <task id="79" name="5HT pathway relistic scale" meeting="false" start="2016-09-09" duration="60" complete="0" expand="true"/>
             </task>
+            <task id="146" name="5HT + DA prototype" meeting="false" start="2016-12-02" duration="1" complete="0" expand="true"/>
             <task id="57" name="Noradrenaline" meeting="false" start="2016-12-02" duration="130" complete="0" expand="true">
                 <depend id="94" type="2" difference="0" hardness="Strong"/>
+                <depend id="149" type="2" difference="0" hardness="Strong"/>
                 <task id="59" name="Noradrenaline neuron/synapse model" meeting="false" start="2016-12-02" duration="20" complete="0" expand="true">
                     <depend id="61" type="2" difference="0" hardness="Strong"/>
                 </task>
@@ -120,6 +131,7 @@
                 </task>
                 <task id="65" name="Noradrenaline projections realistic scales" meeting="false" start="2017-03-10" duration="60" complete="0" expand="true"/>
             </task>
+            <task id="149" name="NA + 5HT + DA prototype" color="#8cb6ce" meeting="true" start="2017-06-02" duration="0" complete="0" expand="true"/>
         </task>
         <task id="94" name="Instinctive reactions" meeting="false" start="2017-06-02" duration="60" complete="0" expand="true">
             <depend id="95" type="2" difference="0" hardness="Strong"/>

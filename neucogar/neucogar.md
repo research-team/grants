@@ -78,6 +78,8 @@ Current state of the research field creates options for the creation of self-lea
 
 ##Methodology
 
+###Cross-disciplinary research
+
 For the purposes of the cross-disciplinary research the group of international scientists was created that includes: neuro-scientist, psychologist, philosopher and specialists from AI domain.
 
 In the domain presented above there are several possible directions. First of all most obvious direct mapping of the psychological and/or philosophical models in to the computational system this was done in implementations of several cognitive architectures. But, main disadvantage of strait mapping leads to miss low level details that could be crucial for implementation of cognitive architectures with option of machine consciousness.
@@ -92,6 +94,11 @@ This approach demands new holistic and functional ways to deal with complex prob
 On the other hand the view on recreation of psychological and philosophical phenomena in a computational system puts us in front of perspective of definition of new domains in computer science:
 
 ![P^3 model](p3_model.png)
+
+###Computational emotions
+
+Uniform theory should take in account at least three perspectives/views on phenomena. We suppose that wider the perspective we have the more relevant model we should generate. This complex task could be done only in cross disciplinary research building bridges between neuroscience and psychology and philosophy. Only this model could be adequately mapped to the computational system in some extent reimplementing the phenomena in computational system, for the several reasons: missing the neurobiological perspective leads to missing low level computational mechanism using only high level views researchers frequently create the cognitive architectures that can not be mapped to the computational processes of the human brain, on the other side missing overall picture leads to modelling only small parts of overall system that miss integration with other subsystems and has narrow view and application focus.
+Here we should admit the importance of the analysis of existing models of emotions psychological, neurobiological and neuropsychological along with neurophilosophical. The result of the analysis should provide the wide basis for modelling of neuropsychological phenomena that could be modelled in computational spiking neural network where we could test the relevance of the mapping methods.
 
 ##Ubique method
 

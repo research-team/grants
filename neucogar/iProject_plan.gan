@@ -119,13 +119,13 @@
             <task id="51" name="WP2.2: Serotonin (5HT)" meeting="false" start="2016-07-01" duration="110" complete="0" expand="true">
                 <depend id="57" type="2" difference="0" hardness="Strong"/>
                 <depend id="146" type="2" difference="0" hardness="Strong"/>
-                <task id="53" name="5HT neuron/synapse" meeting="false" start="2016-07-01" duration="30" complete="0" expand="true">
+                <task id="53" name="T2.2.0: 5HT neuron/synapse" meeting="false" start="2016-07-01" duration="30" complete="0" expand="true">
                     <depend id="55" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="55" name="5HT pathway reduced number of neurons" meeting="false" start="2016-08-12" duration="20" complete="0" expand="true">
+                <task id="55" name="T2.2.1: 5HT pathway reduced number of neurons" meeting="false" start="2016-08-12" duration="20" complete="0" expand="true">
                     <depend id="79" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="79" name="5HT pathway relistic scale" meeting="false" start="2016-09-09" duration="60" complete="0" expand="true"/>
+                <task id="79" name="T2.2.2: 5HT pathway relistic scale" meeting="false" start="2016-09-09" duration="60" complete="0" expand="true"/>
             </task>
             <task id="146" name="M2.2: 5HT + DA prototype" color="#8cb6ce" meeting="true" start="2016-12-02" duration="0" complete="0" expand="true"/>
             <task id="57" name="WP2.3: Noradrenaline" meeting="false" start="2016-12-02" duration="130" complete="0" expand="true">

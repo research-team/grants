@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Artificial consciousness project" company="IU" webLink="https://github.com/max-talanov/1/blob/master/iProject/neucogar.md" view-date="2016-09-01" view-index="0" gantt-divider-location="755" resource-divider-location="300" version="2.0" locale="en_GB">
+<?xml version="1.0" encoding="UTF-8"?><project name="Artificial consciousness project" company="IU" webLink="https://github.com/max-talanov/1/blob/master/iProject/neucogar.md" view-date="2015-12-01" view-index="0" gantt-divider-location="523" resource-divider-location="300" version="2.0" locale="en_GB">
     <description/>
     <view zooming-state="default:11" id="gantt-chart">
-        <field id="tpd3" name="Name" width="69" order="0"/>
+        <field id="tpd3" name="Name" width="68" order="0"/>
         <field id="tpd4" name="Begin date" width="11" order="1"/>
-        <field id="tpd5" name="End date" width="10" order="2"/>
+        <field id="tpd5" name="End date" width="11" order="2"/>
         <field id="tpd6" name="Duration" width="8" order="3"/>
     </view>
     <view id="resource-table">
@@ -46,7 +46,7 @@
             <task id="158" name="T0.2: Collaboration and internal communication" meeting="false" start="2016-01-01" duration="522" complete="0" expand="true"/>
             <task id="4" name="T0.3: Publications" color="#8cb6ce" meeting="false" start="2016-08-12" duration="362" complete="0" expand="true"/>
         </task>
-        <task id="1" name="WP1: Model of emotional appraisal" meeting="false" start="2016-01-29" duration="500" complete="0" expand="true">
+        <task id="1" name="WP1: Model of emotional appraisal" meeting="false" start="2016-01-29" duration="500" complete="0" expand="false">
             <task id="5" name="T1.0:Scientific sources review" color="#8cb6ce" meeting="false" start="2016-01-29" duration="60" complete="0" expand="true">
                 <depend id="12" type="2" difference="0" hardness="Strong"/>
             </task>
@@ -102,7 +102,7 @@
                 <task id="141" name="M1.3.4: Final appraisal" color="#8cb6ce" meeting="true" start="2017-12-29" duration="0" complete="0" expand="true"/>
             </task>
         </task>
-        <task id="0" name="WP2: Emotion simulation" meeting="false" start="2016-01-29" duration="350" complete="0" expand="true">
+        <task id="0" name="WP2: Emotion simulation" meeting="false" start="2016-01-29" duration="350" complete="0" expand="false">
             <task id="30" name="T2.0: Neuromodulation Architecture" color="#8cb6ce" meeting="false" start="2016-01-29" duration="20" complete="0" expand="true"/>
             <task id="47" name="WP2.1: Dopamine" meeting="false" start="2016-01-29" duration="110" complete="0" expand="true">
                 <depend id="51" type="2" difference="0" hardness="Strong"/>
@@ -161,10 +161,10 @@
         <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="514" visible="true"/>
-        <displaycolumn property-id="tpd4" order="1" width="81" visible="true"/>
-        <displaycolumn property-id="tpd5" order="2" width="80" visible="true"/>
-        <displaycolumn property-id="tpd6" order="3" width="61" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="354" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="60" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="59" visible="true"/>
+        <displaycolumn property-id="tpd6" order="3" width="46" visible="true"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>

@@ -103,7 +103,7 @@
             </task>
         </task>
         <task id="0" name="WP2: Emotional simulation" meeting="false" start="2016-01-29" duration="350" complete="0" expand="true">
-            <task id="30" name="T2.0: Neuromodulation Architecture specification" meeting="false" start="2016-01-29" duration="1" complete="0" expand="true"/>
+            <task id="30" name="T2.0: Neuromodulation Architecture specification" color="#8cb6ce" meeting="false" start="2016-01-29" duration="20" complete="0" expand="true"/>
             <task id="47" name="WP2.1: Dopamine" meeting="false" start="2016-01-29" duration="110" complete="0" expand="true">
                 <depend id="51" type="2" difference="0" hardness="Strong"/>
                 <depend id="142" type="2" difference="0" hardness="Strong"/>
@@ -127,7 +127,7 @@
                 </task>
                 <task id="79" name="5HT pathway relistic scale" meeting="false" start="2016-09-09" duration="60" complete="0" expand="true"/>
             </task>
-            <task id="146" name="M2.2: 5HT + DA prototype" meeting="false" start="2016-12-02" duration="1" complete="0" expand="true"/>
+            <task id="146" name="M2.2: 5HT + DA prototype" color="#8cb6ce" meeting="true" start="2016-12-02" duration="0" complete="0" expand="true"/>
             <task id="57" name="WP2.3: Noradrenaline" meeting="false" start="2016-12-02" duration="130" complete="0" expand="true">
                 <depend id="94" type="2" difference="0" hardness="Strong"/>
                 <depend id="149" type="2" difference="0" hardness="Strong"/>

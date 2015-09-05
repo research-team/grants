@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Artificial consciousness project" company="IU" webLink="https://github.com/max-talanov/1/blob/master/iProject/neucogar.md" view-date="2016-01-01" view-index="0" gantt-divider-location="548" resource-divider-location="300" version="2.0" locale="en_GB">
+<?xml version="1.0" encoding="UTF-8"?><project name="Artificial consciousness project" company="IU" webLink="https://github.com/max-talanov/1/blob/master/iProject/neucogar.md" view-date="2016-01-01" view-index="0" gantt-divider-location="590" resource-divider-location="300" version="2.0" locale="en_GB">
     <description/>
     <view zooming-state="default:11" id="gantt-chart">
-        <field id="tpd3" name="Name" width="64" order="0"/>
-        <field id="tpd4" name="Begin date" width="16" order="1"/>
-        <field id="tpd5" name="End date" width="14" order="2"/>
-        <field id="tpd6" name="Duration" width="5" order="3"/>
+        <field id="tpd3" name="Name" width="66" order="0"/>
+        <field id="tpd4" name="Begin date" width="13" order="1"/>
+        <field id="tpd5" name="End date" width="13" order="2"/>
+        <field id="tpd6" name="Duration" width="6" order="3"/>
     </view>
     <view id="resource-table">
         <field id="0" name="Name" width="50" order="0"/>
@@ -84,7 +84,7 @@
                     <depend id="174" type="2" difference="0" hardness="Strong"/>
                     <depend id="185" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="185" name="M1.1.1: Appraisal model version 1" color="#8cb6ce" meeting="true" start="2017-06-16" duration="0" complete="0" expand="true"/>
+                <task id="185" name="M1.1.1: Appraisal model version 1" meeting="false" start="2017-06-16" duration="1" complete="0" expand="true"/>
                 <task id="174" name="T1.1.8: Model version 2 development" meeting="false" start="2017-06-16" duration="40" complete="0" expand="true">
                     <depend id="176" type="2" difference="0" hardness="Strong"/>
                 </task>
@@ -97,7 +97,7 @@
                 <task id="180" name="T1.1.11: Analysis of results" meeting="false" start="2017-11-03" duration="20" complete="0" expand="true">
                     <depend id="133" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="133" name="M1.1.3: Initial appraisal" color="#8cb6ce" meeting="true" start="2017-12-01" duration="0" complete="0" expand="true"/>
+                <task id="133" name="M1.1.2: Initial appraisal" color="#8cb6ce" meeting="true" start="2017-12-01" duration="0" complete="0" expand="true"/>
             </task>
             <task id="162" name="WP1.2: Secondary Emotional appraisal (Feelings)" meeting="false" start="2016-12-30" duration="140" complete="0" expand="true">
                 <task id="17" name="T1.2.0: Model update" color="#8cb6ce" meeting="false" start="2016-12-30" duration="30" complete="0" expand="true">
@@ -131,9 +131,9 @@
                 <task id="141" name="M1.3.4: Final appraisal" color="#8cb6ce" meeting="true" start="2017-12-29" duration="0" complete="0" expand="true"/>
             </task>
         </task>
-        <task id="0" name="WP2: Emotion simulation" meeting="false" start="2016-01-29" duration="350" complete="0" expand="false">
+        <task id="0" name="WP2: Emotion simulation" meeting="false" start="2016-01-29" duration="350" complete="0" expand="true">
             <task id="30" name="T2.0: Neuromodulation Architecture" color="#8cb6ce" meeting="false" start="2016-01-29" duration="20" complete="0" expand="true"/>
-            <task id="47" name="WP2.1: Dopamine" meeting="false" start="2016-01-29" duration="110" complete="0" expand="true">
+            <task id="47" name="WP2.1: Dopamine" meeting="false" start="2016-01-29" duration="110" complete="0" expand="false">
                 <depend id="51" type="2" difference="0" hardness="Strong"/>
                 <depend id="142" type="2" difference="0" hardness="Strong"/>
                 <task id="43" name="T2.1.0: Basal ganglia simple model implementation" meeting="false" start="2016-01-29" duration="20" complete="0" expand="true">
@@ -145,7 +145,7 @@
                 <task id="49" name="T2.1.2: Basal ganglia with feedback loops and realistic number of neurons" meeting="false" start="2016-04-08" duration="60" complete="0" expand="true"/>
             </task>
             <task id="142" name="M2.1: Dopamine prototype" color="#8cb6ce" meeting="true" start="2016-07-01" duration="0" complete="0" expand="true"/>
-            <task id="51" name="WP2.2: Serotonin (5HT)" meeting="false" start="2016-07-01" duration="110" complete="0" expand="true">
+            <task id="51" name="WP2.2: Serotonin (5HT)" meeting="false" start="2016-07-01" duration="110" complete="0" expand="false">
                 <depend id="57" type="2" difference="0" hardness="Strong"/>
                 <depend id="146" type="2" difference="0" hardness="Strong"/>
                 <task id="53" name="T2.2.0: 5HT neuron/synapse" meeting="false" start="2016-07-01" duration="30" complete="0" expand="true">
@@ -157,7 +157,7 @@
                 <task id="79" name="T2.2.2: 5HT pathway realistic scale" meeting="false" start="2016-09-09" duration="60" complete="0" expand="true"/>
             </task>
             <task id="146" name="M2.2: 5HT + DA prototype" color="#8cb6ce" meeting="true" start="2016-12-02" duration="0" complete="0" expand="true"/>
-            <task id="57" name="WP2.3: Noradrenaline" meeting="false" start="2016-12-02" duration="130" complete="0" expand="true">
+            <task id="57" name="WP2.3: Noradrenaline" meeting="false" start="2016-12-02" duration="130" complete="0" expand="false">
                 <depend id="94" type="2" difference="0" hardness="Strong"/>
                 <depend id="149" type="2" difference="0" hardness="Strong"/>
                 <task id="59" name="T2.3.0: Noradrenaline neuron/synapse model" meeting="false" start="2016-12-02" duration="20" complete="0" expand="true">
@@ -190,10 +190,10 @@
         <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="341" visible="true"/>
-        <displaycolumn property-id="tpd4" order="1" width="85" visible="true"/>
-        <displaycolumn property-id="tpd5" order="2" width="75" visible="true"/>
-        <displaycolumn property-id="tpd6" order="3" width="28" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="381" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="77" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="77" visible="true"/>
+        <displaycolumn property-id="tpd6" order="3" width="36" visible="true"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>

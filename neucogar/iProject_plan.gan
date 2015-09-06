@@ -175,8 +175,26 @@
         </task>
         <task id="94" name="WP3: Integration of the emotion components" meeting="false" start="2017-06-02" duration="60" complete="0" expand="true">
             <depend id="95" type="2" difference="0" hardness="Strong"/>
+            <task id="186" name="T3.0: Integration design" meeting="false" start="2017-06-02" duration="19" complete="0" expand="true">
+                <depend id="193" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="193" name="T3.1: Integration implementation" meeting="false" start="2017-06-29" duration="22" complete="0" expand="true">
+                <depend id="198" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="198" name="T3.2: Integration testing" meeting="false" start="2017-07-31" duration="10" complete="0" expand="true">
+                <depend id="203" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="203" name="T3.3: Integration validation" meeting="false" start="2017-08-14" duration="9" complete="0" expand="true"/>
         </task>
-        <task id="95" name="WP4: Architecture implementation design" color="#8cb6ce" meeting="false" start="2017-08-25" duration="92" complete="0" expand="true"/>
+        <task id="95" name="WP4: Architecture implementation design" color="#8cb6ce" meeting="false" start="2017-08-25" duration="92" complete="0" expand="true">
+            <task id="209" name="T3.0: Requirements specification" meeting="false" start="2017-08-25" duration="26" complete="0" expand="true">
+                <depend id="211" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="211" name="T3.1: High-level design" meeting="false" start="2017-10-02" duration="49" complete="0" expand="true">
+                <depend id="214" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="214" name="T3.2: Low-level design" meeting="false" start="2017-12-08" duration="17" complete="0" expand="true"/>
+        </task>
     </tasks>
     <resources/>
     <allocations/>

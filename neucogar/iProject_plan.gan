@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><project name="Artificial consciousness project" company="IU" webLink="https://github.com/max-talanov/1/blob/master/iProject/neucogar.md" view-date="2016-01-01" view-index="0" gantt-divider-location="590" resource-divider-location="300" version="2.0" locale="en_GB">
     <description/>
     <view zooming-state="default:11" id="gantt-chart">
-        <field id="tpd3" name="Name" width="66" order="0"/>
+        <field id="tpd3" name="Name" width="65" order="0"/>
         <field id="tpd4" name="Begin date" width="13" order="1"/>
         <field id="tpd5" name="End date" width="13" order="2"/>
         <field id="tpd6" name="Duration" width="6" order="3"/>
@@ -36,17 +36,18 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="150" name="WP0: Coordination" meeting="false" start="2016-01-01" duration="522" complete="0" expand="true">
+        <task id="150" name="WP0: Coordination" meeting="false" start="2016-01-01" duration="782" complete="0" expand="true">
             <task id="3" name="T0.0: Team building" color="#8cb6ce" meeting="false" start="2016-01-01" duration="20" complete="0" expand="true">
                 <depend id="0" type="2" difference="0" hardness="Strong"/>
                 <depend id="1" type="2" difference="0" hardness="Strong"/>
                 <depend id="4" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="151" name="T0.1: Project management and communication" color="#8cb6ce" meeting="false" start="2016-01-01" duration="522" complete="0" expand="true"/>
-            <task id="158" name="T0.2: Collaboration and internal communication" meeting="false" start="2016-01-01" duration="522" complete="0" expand="true"/>
-            <task id="4" name="T0.3: Publications" color="#8cb6ce" meeting="false" start="2016-08-12" duration="362" complete="0" expand="true"/>
+            <task id="151" name="T0.1: Project management and communication" color="#8cb6ce" meeting="false" start="2016-01-01" duration="782" complete="0" expand="true"/>
+            <task id="158" name="T0.2: Collaboration and internal communication" meeting="false" start="2016-01-01" duration="782" complete="0" expand="true"/>
+            <task id="4" name="T0.3: Publications" color="#8cb6ce" meeting="false" start="2016-08-12" duration="622" complete="0" expand="true"/>
         </task>
         <task id="1" name="WP1: Model of emotional appraisal" meeting="false" start="2016-01-29" duration="500" complete="0" expand="true">
+            <depend id="215" type="2" difference="0" hardness="Strong"/>
             <task id="5" name="T1.0: Scientific sources review" color="#8cb6ce" meeting="false" start="2016-01-29" duration="60" complete="0" expand="true">
                 <depend id="12" type="2" difference="0" hardness="Strong"/>
             </task>
@@ -133,7 +134,7 @@
         </task>
         <task id="0" name="WP2: Emotion simulation" meeting="false" start="2016-01-29" duration="350" complete="0" expand="true">
             <task id="30" name="T2.0: Neuromodulation Architecture" color="#8cb6ce" meeting="false" start="2016-01-29" duration="20" complete="0" expand="true"/>
-            <task id="47" name="WP2.1: Dopamine" meeting="false" start="2016-01-29" duration="110" complete="0" expand="false">
+            <task id="47" name="WP2.1: Dopamine" meeting="false" start="2016-01-29" duration="110" complete="0" expand="true">
                 <depend id="51" type="2" difference="0" hardness="Strong"/>
                 <depend id="142" type="2" difference="0" hardness="Strong"/>
                 <task id="43" name="T2.1.0: Basal ganglia simple model implementation" meeting="false" start="2016-01-29" duration="20" complete="0" expand="true">
@@ -145,7 +146,7 @@
                 <task id="49" name="T2.1.2: Basal ganglia with feedback loops and realistic number of neurons" meeting="false" start="2016-04-08" duration="60" complete="0" expand="true"/>
             </task>
             <task id="142" name="M2.1: Dopamine prototype" color="#8cb6ce" meeting="true" start="2016-07-01" duration="0" complete="0" expand="true"/>
-            <task id="51" name="WP2.2: Serotonin (5HT)" meeting="false" start="2016-07-01" duration="110" complete="0" expand="false">
+            <task id="51" name="WP2.2: Serotonin (5HT)" meeting="false" start="2016-07-01" duration="110" complete="0" expand="true">
                 <depend id="57" type="2" difference="0" hardness="Strong"/>
                 <depend id="146" type="2" difference="0" hardness="Strong"/>
                 <task id="53" name="T2.2.0: 5HT neuron/synapse" meeting="false" start="2016-07-01" duration="30" complete="0" expand="true">
@@ -157,7 +158,7 @@
                 <task id="79" name="T2.2.2: 5HT pathway realistic scale" meeting="false" start="2016-09-09" duration="60" complete="0" expand="true"/>
             </task>
             <task id="146" name="M2.2: 5HT + DA prototype" color="#8cb6ce" meeting="true" start="2016-12-02" duration="0" complete="0" expand="true"/>
-            <task id="57" name="WP2.3: Noradrenaline" meeting="false" start="2016-12-02" duration="130" complete="0" expand="false">
+            <task id="57" name="WP2.3: Noradrenaline" meeting="false" start="2016-12-02" duration="130" complete="0" expand="true">
                 <depend id="94" type="2" difference="0" hardness="Strong"/>
                 <depend id="149" type="2" difference="0" hardness="Strong"/>
                 <task id="59" name="T2.3.0: Noradrenaline neuron/synapse model" meeting="false" start="2016-12-02" duration="20" complete="0" expand="true">
@@ -186,7 +187,8 @@
             </task>
             <task id="203" name="T3.3: Integration validation" meeting="false" start="2017-08-14" duration="9" complete="0" expand="true"/>
         </task>
-        <task id="95" name="WP4: Architecture implementation design" color="#8cb6ce" meeting="false" start="2017-08-25" duration="92" complete="0" expand="true">
+        <task id="95" name="WP4: Architecture implementation design" color="#000000" meeting="false" start="2017-08-25" duration="92" complete="0" expand="true">
+            <depend id="215" type="2" difference="0" hardness="Strong"/>
             <task id="209" name="T3.0: Requirements specification" meeting="false" start="2017-08-25" duration="26" complete="0" expand="true">
                 <depend id="211" type="2" difference="0" hardness="Strong"/>
             </task>
@@ -194,6 +196,21 @@
                 <depend id="214" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="214" name="T3.2: Low-level design" meeting="false" start="2017-12-08" duration="17" complete="0" expand="true"/>
+        </task>
+        <task id="215" name="WP5: Integrated emotional embodied prototype" meeting="false" start="2018-01-02" duration="259" complete="0" expand="true">
+            <task id="217" name="T5.0 Embodiment scientific resources analysis" meeting="false" start="2018-01-02" duration="64" complete="0" expand="true">
+                <depend id="219" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="219" name="T5.1: Integrated appraisal embodiment model" meeting="false" start="2018-04-02" duration="65" complete="0" expand="true">
+                <depend id="221" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="221" name="T5.2: Implementation of Integrated appraisal embodiment model" meeting="false" start="2018-07-02" duration="45" complete="0" expand="true">
+                <depend id="223" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="223" name="T5.3: Validation of Integrated appraisal embodiment model" meeting="false" start="2018-09-03" duration="85" complete="0" expand="true">
+                <depend id="235" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="235" name="M5.0 Intergrated emotional embodied prototype" color="#8cb6ce" meeting="true" start="2018-12-31" duration="0" complete="0" expand="true"/>
         </task>
     </tasks>
     <resources/>
@@ -208,10 +225,10 @@
         <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="381" visible="true"/>
-        <displaycolumn property-id="tpd4" order="1" width="77" visible="true"/>
-        <displaycolumn property-id="tpd5" order="2" width="77" visible="true"/>
-        <displaycolumn property-id="tpd6" order="3" width="36" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="374" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="79" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="79" visible="true"/>
+        <displaycolumn property-id="tpd6" order="3" width="39" visible="true"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>

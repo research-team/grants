@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -606,16 +606,6 @@
        style="fill:#00a65f;fill-opacity:1;stroke:none;display:inline"
        sodipodi:type="arc" />
     <path
-       sodipodi:type="arc"
-       style="fill:#00a65f;fill-opacity:1;stroke:none;display:inline"
-       id="path4692"
-       sodipodi:cx="117.66169"
-       sodipodi:cy="66.404312"
-       sodipodi:rx="3.6886902"
-       sodipodi:ry="3.6886902"
-       d="m 121.35038,66.404312 a 3.6886902,3.6886902 0 1 1 -7.37738,0 3.6886902,3.6886902 0 1 1 7.37738,0 z"
-       transform="matrix(0.34693879,0,0,0.34693879,83.1709,59.644198)" />
-    <path
        transform="matrix(0.34693879,0,0,0.34693879,83.1709,51.644198)"
        d="m 121.35038,66.404312 a 3.6886902,3.6886902 0 1 1 -7.37738,0 3.6886902,3.6886902 0 1 1 7.37738,0 z"
        sodipodi:ry="3.6886902"
@@ -793,5 +783,11 @@
        d="m 294.92891,74.87156 -30.97553,39.53673"
        style="fill:none;stroke:#f05b5f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
        sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3318"
+       d="m 124.21617,74.876087 27.98792,35.592273"
+       style="fill:none;stroke:#00a65f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
   </g>
 </svg>

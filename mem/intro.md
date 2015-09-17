@@ -15,10 +15,25 @@ Lomonosov.
 
 We propose to use "add one more layer of abstraction paradigm" that is depicted below:
 
+Data structures:
+
+1. Lightweight ontology
+1. Realistic neural network (rNN)
+
 ![Components diagram](components.png)
 
-- a. In this position robotic system transfers the accumulated experience in the lightweight logic based structures into rNN
-- b. Processing is done as follows 
+- a. In this position robotic system transfers the accumulated experience in the lightweight ontologies structures into rNN
+- b. Processing is done as follows:
+  - Firstly the accumulated experience in the form of light weight ontologies is transferred from a robotic system to
+  the processing center
+  - Light weight ontologies should be translated in the form applicable to the rNN
+  - Then applied to the rNN that is trained and is producing new updated behavior strategies during some period of
+  time (over night) updating the neuronal circuits
+  - Then updated neuronal circuits should be translated in the form of lightweight ontologies applied to the robotic system
+- c. The updated lightweight ontologies are transferred to the robotic system and applied to it.
+- d. The robotic system runs updated behavioral strategies in current environment and accumulate new experience to be processed again starting from a.
+
+###Development plan
 
 1. Develop intermediate layer in probabilistic logic or better [NARS](https://github.com/opennars/opennars):
    2. Develop reasoning environment deployable on robotic system (ex: AR-601)

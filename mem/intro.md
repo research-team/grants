@@ -13,9 +13,12 @@ Lomonosov.
 
 ##Solution
 
-We propose to use "add one more layer of abstraction paradigm":
+We propose to use "add one more layer of abstraction paradigm" that is depicted below:
 
 ![Components diagram](components.png)
+
+- a. In this position robotic system transfers the accumulated experience in the lightweight logic based structures into rNN
+- b. Processing is done as follows 
 
 1. Develop intermediate layer in probabilistic logic or better [NARS](https://github.com/opennars/opennars):
    2. Develop reasoning environment deployable on robotic system (ex: AR-601)

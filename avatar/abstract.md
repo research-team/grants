@@ -7,6 +7,8 @@ interest is concentrated in the prosthesis approaches, for example: http://www.y
 This approach is well known and rises one problem of caring the equipment on the body of humans. Although there
 is option to decouple the managing neuronal activity and the robotic system.
 
+... Fukushima
+
 ##Our idea
 
 We propose the decoupling of managing and actuating activities in the form depicted below:

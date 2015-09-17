@@ -15,7 +15,7 @@ Lomonosov.
 
 We propose to use "add one more layer of abstraction paradigm":
 
-...Add diagram here...
+![Components diagram](components.png)
 
 1. Develop intermediate layer in probabilistic logic or better [NARS](https://github.com/opennars/opennars):
    2. Develop reasoning environment deployable on robotic system (ex: AR-601)

@@ -1,11 +1,14 @@
-#Mem project intro
+#Dream project intro
 
 ##Problem
 
 Current robotics systems usually do not have enough memory and computational capacity to run advanced learning and
 behavioral algorithms.
 
-For example AR-601 - CPU: Memory:
+For example AR-601:
+
+* CPU  - 4th Gen Intel® Core™ i7-4700EQ 4-Core 3.4GHz processor;
+* System Memory -  1 x204-Pin DDR3L 1333MHz SO-DIMMup to 8 GB;
 
 In case of emotional behavioral simulations we probably need some intermediate layer to be stored and used on the
 robotic system and while realistic NN should be used to generate this intermediate layer using super-computer like

@@ -33,8 +33,3 @@ desired actions of the robotic system.
 1. **Transfer** the robotic system managing command via network to the remote robotic system.
 1. Further feedback could be provided to the human operator in order to correct the management activity of the
 operator.
-
-
-##Grant
-
-This project could be applied to the Google grant for disabled people: https://www.google.org/impactchallenge/disabilities/about.html

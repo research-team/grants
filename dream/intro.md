@@ -2,10 +2,11 @@
 
 ## Problem
 
-In order to improve capabilities of autonomous robotic systems to deal with complex situations (especially situations of humans interaction and social behaviour) advanced learning and behavioural models including emotional reactions are needed. One of the most promising such models is Spiking Neural Networks (with neuromodulation) as it's the most direct mapping of mammals' brain activity.
-
-Current robotics systems usually do not have enough memory and computational capacity to run advanced learning and
-behavioral algorithms.
+In order to improve capabilities of autonomous robotic systems to deal with complex situations (especially
+situations of humans interaction and social behaviour) advanced learning and behavioural models including
+emotional reactions are needed. One of the most promising such models is Spiking Neural Networks (with
+neuromodulation) as it's the most direct mapping of mammals' brain activity. Current robotics systems
+usually do not have enough memory and computational capacity to run advanced learning and behavioral algorithms.
 
 For example AR-601:
 
@@ -22,8 +23,10 @@ We propose to use "add one more layer of abstraction paradigm" that is depicted 
 
 Data structures:
 
-1. Lightweight ontology
-1. Realistic neural network (rNN)
+- Lightweight ontology - the data structure maintainable on a robotic system, usually contains facts, rules
+and relations and reperesented as probabilistic ontology
+- Realistic neural network (rNN) - used for simulation of mammalian behavior and learning using real life
+experience of the robotic system.
 
 ![Components diagram](components.png)
 

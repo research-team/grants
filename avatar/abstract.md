@@ -4,12 +4,14 @@
 
 There are several techniques and approaches to manage the robotic systems via neuronal activity, and current main
 interest is concentrated in the prosthesis approaches, for example: http://www.youtube.com/watch?t=27&v=9NOncx2jU0Q
-This approach is well known and rises one problem of caring the equipment on the body of humans. Although there
-is option to decouple the managing neuronal activity and the robotic system.
+This approach is well known and rises one problem of caring the equipment on the body of humans.
+More than that there are a lot of situations where the personal human presence is not possible or not wanted,
+for example the zones of nature and technogenic disasters, outer space, extraterrestrial environments.
+Using non anthropomorphic robotic systems could expand the application field of the neuromorphic robotic systems.
+The diversity of the applications could be supported and expanded using the option to decouple the
+managing neuronal activity and a robotic system.
 
-... Fukushima
-
-##Our idea
+##Idea
 
 We propose the decoupling of managing and actuating activities in the form depicted below:
 

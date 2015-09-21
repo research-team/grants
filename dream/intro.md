@@ -12,8 +12,8 @@ For example this is computation resources of rather advanced bipedal robotic pla
 But simulation of 1% of human brain required a cluster of K supercomputers (your favorite part goes here, Max. ;))
 
 In case of emotional behavioral simulations we probably need some intermediate layer to be stored and used on the
-robotic system and while realistic NN should be used to generate this intermediate layer using super-computer like
-Lomonosov.
+robotic system and while realistic spiking NN should be used to generate this intermediate layer using
+super-computer like Lomonosov.
 
 ## Solution
 
@@ -21,19 +21,19 @@ We propose to use "add one more layer of abstraction paradigm" that is depicted 
 
 Data structures:
 
-- Lightweight ontology - the data structure maintainable on a robotic system, usually contains facts, rules
+- Lightweight ontology --- the data structure maintainable on a robotic system, usually contains facts, rules
 and relations and reperesented as probabilistic ontology
-- Realistic neural network (rNN) - used for simulation of mammalian behavior and learning using real life
+- Realistic spiking neural network (sNN) --- used for simulation of mammalian behavior and learning using real life
 experience of the robotic system.
 
 ![Components diagram](components.png)
 
-- a. In this position robotic system transfers the accumulated experience in the lightweight ontologies structures into rNN
+- a. In this position robotic system transfers the accumulated experience in the lightweight ontologies structures into sNN
 - b. Processing is done as follows:
-  - Firstly the accumulated experience in the form of light weight ontologies is transferred from a robotic system to
+  - Firstly the accumulated experience in the form of lightweight ontologies is transferred from a robotic system to
   the processing center
-  - Light weight ontologies should be translated in the form applicable to the rNN
-  - Then applied to the rNN that is trained and is producing new updated behavior strategies during some period of
+  - Lightweight ontologies should be translated in the form applicable to the sNN
+  - Then applied to the sNN that is trained and is producing new updated behavior strategies during some period of
   time (over night) updating the neuronal circuits
   - Then updated neuronal circuits should be translated in the form of lightweight ontologies applied to the robotic system
 - c. The updated lightweight ontologies are transferred to the robotic system and applied to it.
@@ -44,10 +44,10 @@ experience of the robotic system.
 1. Develop intermediate layer in probabilistic logic or better [NARS](https://github.com/opennars/opennars):
    2. Develop reasoning environment deployable on robotic system (ex: AR-601)
    2. Develop approach to NARS facts based description of the behavior
-1. Develop realistic NN (rNN) approach for of training and behavior including emotions
-   2. Develop the rNN structure as the basement for the training and behavior
+1. Develop realistic spiking NN (sNN) approach for training and behavior including emotions
+   2. Develop the sNN structure as the basement for the training and behavior
    2. Implement in the supercomputer simulation
-   2. Develop rNN to NARS translation mechanism
-   2. Implement the rNN to NARS mechanism
+   2. Develop sNN to NARS translation mechanism
+   2. Implement the sNN to NARS mechanism
 
 ...

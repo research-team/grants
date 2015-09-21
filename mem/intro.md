@@ -1,6 +1,8 @@
-#Dream project intro
+# Dream project intro
 
-##Problem
+## Problem
+
+In order to improve capabilities of autonomous robotic systems to deal with complex situations (especially situations of humans interaction and social behaviour) advanced learning and behavioural models including emotional reactions are needed. One of the most promising such models is Spiking Neural Networks (with neuromodulation) as it's the most direct mapping of mammals' brain activity.
 
 Current robotics systems usually do not have enough memory and computational capacity to run advanced learning and
 behavioral algorithms.
@@ -14,7 +16,7 @@ In case of emotional behavioral simulations we probably need some intermediate l
 robotic system and while realistic NN should be used to generate this intermediate layer using super-computer like
 Lomonosov.
 
-##Solution
+## Solution
 
 We propose to use "add one more layer of abstraction paradigm" that is depicted below:
 
@@ -36,7 +38,7 @@ Data structures:
 - c. The updated lightweight ontologies are transferred to the robotic system and applied to it.
 - d. The robotic system runs updated behavioral strategies in current environment and accumulate new experience to be processed again starting from a.
 
-###Development plan
+### Development plan
 
 1. Develop intermediate layer in probabilistic logic or better [NARS](https://github.com/opennars/opennars):
    2. Develop reasoning environment deployable on robotic system (ex: AR-601)

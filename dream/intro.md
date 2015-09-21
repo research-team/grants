@@ -19,8 +19,7 @@ institute in 2013 and this simulation was slower than human brain in 1000 times.
 According to the estimates of the Human brain project the computational capacity to simulate whole human
 brain is 1 exaflop that is not feasible at the moment.
 
-In case of emotional behavioral simulations we probably need some intermediate layer to be stored and
-used on the robotic system and while spiking NN should be used to generate this intermediate layer using
+In case of emotional behavioral simulations we probably need some intermediate layer to be stored and used on the robotic system and while realistic spiking NN should be used to generate this intermediate layer using
 super-computer like Lomonosov.
 
 ## Solution
@@ -29,9 +28,9 @@ We propose to use "add one more layer of abstraction paradigm" that is depicted 
 
 Data structures:
 
-- Lightweight ontology - the data structure maintainable on a robotic system, usually contains facts, rules
+- Lightweight ontology --- the data structure maintainable on a robotic system, usually contains facts, rules
 and relations and reperesented as probabilistic ontology
-- Spiking neural network (sNN) - used for simulation of mammalian behavior and learning using real life
+- Spiking neural network (sNN) - used for simulation of the mammalian behavior and learning using real life
 experience of the robotic system.
 
 ![Components diagram](components.png)
@@ -66,7 +65,7 @@ learning, appraisal, coping and behavioral strategies is been generated and then
 
 ## Expected results
 
-### Research to be done
+The following reseach to be done during the project:
 
 1. Intermediate layer of the lightweight ontologies applicable to the NARS system.
 1. Translation approaches to map lightweight ontologies data structures to the sNN and vice versa.

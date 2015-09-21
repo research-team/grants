@@ -13,13 +13,15 @@ managing neuronal activity and a robotic system.
 
 ##Idea
 
-We propose the decoupling of managing and actuating activities in the form depicted below:
+We propose the decoupling of the managing (neuronal) activities and actuating activities (robotic system)
+in the form depicted below:
 
 ![High level schema](modulor2.png)
 
-First to track the neuronal activity of the human body and on the human body then transform it into the
-operational commands of the remote robotic system. This processing could be cloud based and done using
-neuronal networks.
+In the first stage the neuronal activity of the human body and on the human body is been tracked and processed
+in the form that could be transformed and transmitted into the operational commands of the remote robotic system.
+We propose to develop the cloud platform that could be capable of the neuronal signals processing and translation
+into the robotic system managing activity, proposed framework should be implemented heavily using neural network.
 
 ###Main components
 

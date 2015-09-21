@@ -37,3 +37,17 @@ desired actions of the robotic system.
 1. **Transfer** the robotic system managing command via network to the remote robotic system.
 1. Further feedback could be provided to the human operator in order to correct the management activity of the
 operator.
+
+##Expected results
+
+The research field of this project is wide and we should firstly concentrate on analysis of the current state
+of the art to propose approaches for:
+
+- the processing of the neuronal signals including normalization
+- the interpretation of the processed neuronal activity into robotic system operational commands
+- the universal intermediate interface for the integrated neuromorphic robotic system
+
+Approaches should be presented in the international conferences.
+There should be created the series of the prototypes of the components listed above, also the integrated prototype
+should be designed and validated on the simulated environment and real life environment.
+

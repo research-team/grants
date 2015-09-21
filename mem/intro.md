@@ -4,13 +4,14 @@
 
 In order to improve capabilities of autonomous robotic systems to deal with complex situations (especially situations of humans interaction and social behaviour) advanced learning and behavioural models including emotional reactions are needed. One of the most promising such models is Spiking Neural Networks (with neuromodulation) as it's the most direct mapping of mammals' brain activity.
 
-Current robotics systems usually do not have enough memory and computational capacity to run advanced learning and
-behavioral algorithms.
+Current robotics systems usually do not have enough memory and computational capacity to run realistic simulations of human brain activity.
 
-For example AR-601:
+For example this is computation resources of rather advanced bipedal robotic platform AR-601:
 
 * CPU  - 4th Gen Intel® Core™ i7-4700EQ 4-Core 3.4GHz processor;
 * System Memory -  1 x204-Pin DDR3L 1333MHz SO-DIMMup to 8 GB;
+
+But simulation of 1% of human brain required a cluster of K supercomputers (your favorite part goes here, Max. ;))
 
 In case of emotional behavioral simulations we probably need some intermediate layer to be stored and used on the
 robotic system and while realistic NN should be used to generate this intermediate layer using super-computer like

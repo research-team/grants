@@ -6,21 +6,23 @@ In order to improve capabilities of autonomous robotic systems to deal with comp
 (especially situations of humans interaction and social behaviour) advanced learning and behavioural models
 including emotional reactions are needed. One of the most promising such models is Spiking Neural Networks
 (with neuromodulation) as it's the most direct mapping of mammals' brain activity.
-Current robotics systems usually do not have enough memory and computational capacity to run realistic
+Current robotic systems usually do not have enough memory and computational capacity to run realistic
 simulations of human brain activity.
 
 For example this is computation resources of rather advanced bipedal robotic platform AR-601:
 
 * CPU  - 4th Gen Intel® Core™ i7-4700EQ 4-Core 3.4GHz processor;
-* System Memory -  1 x204-Pin DDR3L 1333MHz SO-DIMMup to 8 GB;
+* System Memory -  1 x204-Pin DDR3L 1333MHz SO-DIMM up to 8 GB;
 
-But simulation of 1% of human brain required a cluster of 250 K supercomputers that was done by RIKEN
-institute in 2013 and this simulation was slower than human brain in 1000 times.
+But simulation of 1% of human brain required a cluster of 250 K supercomputers
+(each contains 96 computing nodes, each  node contains a 2.0 GHz 8-core SPARC64 processor and 16 GB of memory)
+that was done by RIKEN institute in 2013 and this simulation was slower than human brain in 1000 times.
 According to the estimates of the Human brain project the computational capacity to simulate whole human
 brain is 1 exaflop that is not feasible at the moment.
 
-In case of emotional behavioral simulations we probably need some intermediate layer to be stored and used on the robotic system and while realistic spiking NN should be used to generate this intermediate layer using
-super-computer like Lomonosov.
+In case of emotional behavioral simulations we probably need some intermediate layer
+to be stored and used on the robotic system while realistic spiking NN should be used
+to generate this intermediate layer using super-computer like Lomonosov.
 
 ## Solution
 
@@ -28,9 +30,9 @@ We propose to use "add one more layer of abstraction paradigm" that is depicted 
 
 Data structures:
 
-- Lightweight ontology --- the data structure maintainable on a robotic system, usually contains facts, rules
+- Lightweight ontology &mdash; the data structure maintainable on a robotic system, usually contains facts, rules
 and relations and reperesented as probabilistic ontology
-- Spiking neural network (sNN) - used for simulation of the mammalian behavior and learning using real life
+- Spiking neural network (sNN) &mdash; used for simulation of the mammalian behavior and learning using real life
 experience of the robotic system.
 
 ![Components diagram](components.png)
@@ -45,9 +47,9 @@ experience of the robotic system.
 - d. The robotic system runs updated learning, appraisal and behavioral strategies in current environment and accumulate new experience to be processed again starting from a.
 
 We propose to use two phases of the operation of the robotic system:
-- **daily phase** - during this phase robotic system stores daily experience in the forms of the lightweight
+- **daily phase** &mdash; during this phase robotic system stores daily experience in the forms of the lightweight
 ontologies and does minimal changes of a behavioral strategies. This phase is depicted as state **d**.
-- **nightly phase** - robotic system transmits the daily experience in the processing sNN where realistic
+- **nightly phase** &mdash; robotic system transmits the daily experience in the processing sNN where realistic
 learning, appraisal, coping and behavioral strategies is been generated and then transferred back in the form of lightweight ontologies. Depicted as: **a, b, c**.
 
 
